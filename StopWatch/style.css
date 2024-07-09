@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7; /* Light grey */
+}
+#myh1 {
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: #2c3e50; /* Dark blue-grey */
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-color: #34495e; /* Darker blue-grey */
+    border-radius: 30px;
+    background-color: #ecf0f1; /* Very light grey */
+}
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue-grey */
+    text-shadow: 2px 2px 2px rgba(44, 62, 80, 0.5); /* Soft shadow */
+    margin-bottom: 25px;
+}
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #2980b9; /* Medium blue */
+    transition: background-color 0.3s;
+}
+#startBtn {
+    background-color: #2980b9; /* Medium blue */
+}
+#startBtn:hover {
+    background-color: #2ecc71; /* Light blue */
+}
+#stopBtn {
+    background-color: #e74c3c; /* Medium red */
+}
+#stopBtn:hover {
+    background-color: #e57373; /* Light red */
+}
+#resetBtn {
+    background-color: #27ae60; /* Medium green */
+}
+#resetBtn:hover {
+    background-color: #0a37cc; /* Light green */
+}

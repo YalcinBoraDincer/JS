@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-image: url("wallpaper2you_564316.jpg");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#clockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 254, 255)
+}
